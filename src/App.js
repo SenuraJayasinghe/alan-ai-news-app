@@ -50,11 +50,13 @@ const App =() => {
     <div className='heading'>
      <h1>Alan AI Web App Integration</h1>
     </div>
-    {/* <div className="logoContainer" >
-      <img src="https://images.pexels.com/photos/2235130/pexels-photo-2235130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="alanLogo" alt="logo" />
-    </div> */}
+    <div className='instructions'>
+     <h3>Say "open article number *number* to visit article page</h3>
+     <h4>(Enable popups if page does not open)</h4>
+    </div>
     <NewsCards articles={newsArticles} activeArticle={activeArticle} />
     </div>
+    
     
   )
 }
