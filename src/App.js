@@ -51,7 +51,7 @@ const App =() => {
      <h1>Alan AI Web App Integration</h1>
     </div>
     <div className='instructions'>
-     <h3>Say "open article number *number*" to visit article page</h3>
+     <h3>Say: "open article number *number* " to visit article page</h3>
      <h4>(Enable popups if page does not open)</h4>
     </div>
     <NewsCards articles={newsArticles} activeArticle={activeArticle} />
